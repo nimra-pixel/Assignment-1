@@ -3,12 +3,11 @@ let fname: string = "nimra";
 let lname: string = " kamran";
 console.log(`Hello, ${fname + lname} would you like to learn some Python today?`);
 //question 3
-let lowerName: string = "nimra";
-console.log(lowerName);
-let upperName: string = "NIMRA";
-console.log(upperName);
-let titleName: string = "Nimra Tariq";
-console.log(titleName);
+let text = "nimra";
+let result = text.toUpperCase();
+console.log(result);
+let result1 = text.toLowerCase();
+console.log(result1);
 //question 4
 let name1: string = "Albert Einstien";
 console.log(`${name1} once said, “A person who never made a mistake never tried anything new.”`)
