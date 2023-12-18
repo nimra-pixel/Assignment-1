@@ -8,6 +8,14 @@ let result = text.toUpperCase();
 console.log(result);
 let result1 = text.toLowerCase();
 console.log(result1);
+let my_name = "nimra tariq";
+let words:string[] = my_name.split(" ");
+let titlecaseName:string = " "
+for (let i=0; i < words.length; i++){
+    titlecaseName += words[i].charAt(0).toUpperCase() +words[i].slice(1).toLowerCase()+ " "
+
+};
+console.log(titlecaseName);
 //question 4
 let name1: string = "Albert Einstien";
 console.log(`${name1} once said, “A person who never made a mistake never tried anything new.”`)
